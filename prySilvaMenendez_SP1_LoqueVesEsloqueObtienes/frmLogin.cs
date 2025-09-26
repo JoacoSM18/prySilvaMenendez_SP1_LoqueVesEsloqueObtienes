@@ -49,5 +49,10 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
