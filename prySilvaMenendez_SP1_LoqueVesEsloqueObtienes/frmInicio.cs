@@ -16,5 +16,10 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
         {
             InitializeComponent();
         }
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

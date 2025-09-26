@@ -40,7 +40,7 @@
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(84, 96);
+            this.lblUsuario.Location = new System.Drawing.Point(84, 73);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(96, 29);
             this.lblUsuario.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(84, 203);
+            this.lblContraseña.Location = new System.Drawing.Point(84, 194);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(136, 29);
             this.lblContraseña.TabIndex = 1;
@@ -59,7 +59,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(253, 90);
+            this.txtUsuario.Location = new System.Drawing.Point(253, 67);
             this.txtUsuario.MaxLength = 20;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(219, 35);
@@ -68,7 +68,7 @@
             // txtContraseña
             // 
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(253, 197);
+            this.txtContraseña.Location = new System.Drawing.Point(253, 188);
             this.txtContraseña.MaxLength = 20;
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '*';
@@ -78,9 +78,9 @@
             // btnAceptar
             // 
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.Location = new System.Drawing.Point(334, 324);
+            this.btnAceptar.Location = new System.Drawing.Point(325, 305);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(138, 39);
+            this.btnAceptar.Size = new System.Drawing.Size(186, 54);
             this.btnAceptar.TabIndex = 4;
             this.btnAceptar.Text = "ACEPTAR";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -89,9 +89,9 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(89, 324);
+            this.btnSalir.Location = new System.Drawing.Point(34, 305);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(138, 39);
+            this.btnSalir.Size = new System.Drawing.Size(186, 54);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -100,6 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(544, 390);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnAceptar);
