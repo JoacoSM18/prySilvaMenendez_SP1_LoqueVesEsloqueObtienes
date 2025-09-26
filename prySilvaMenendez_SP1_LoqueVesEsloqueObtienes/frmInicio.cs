@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
 {
-    public partial class frmLogin : Form
+    public partial class frmInicio : Form
     {
-        public frmLogin()
+        public frmInicio()
         {
             InitializeComponent();
         }
