@@ -29,6 +29,7 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
                 frmInicio Principal = new frmInicio();
                 Principal.Show();
                 this.Hide();
+                Principal.FormClosed += (s, args) => this.Close();
 
             }
             else
@@ -42,6 +43,11 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
                     this.Close();
                 }
             }
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
