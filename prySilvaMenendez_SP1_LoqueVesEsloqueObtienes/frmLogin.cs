@@ -17,7 +17,6 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
         {
             InitializeComponent();
         }
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text;
@@ -26,16 +25,16 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
             if ((usuario == "Administrador" && contraseña == "adm135$") ||
                 (usuario == "Operador" && contraseña == "ope246$"))
             {
-                frmInicio Principal = new frmInicio();
-                Principal.Show();
+                MessageBox.Show("Acceso Concedido", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmInicio frmInicio = new frmInicio();
                 this.Hide();
-                Principal.FormClosed += (s, args) => this.Close();
-
+                frmInicio.ShowDialog();
+                Application.Exit();
             }
             else
             {
                 intentos++;
-                MessageBox.Show("Usuario o Contraseña Incorrectos");
+                MessageBox.Show("Usuario o Contraseña Incorrectos","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 if (intentos >= 3)
                 {
@@ -44,12 +43,10 @@ namespace prySilvaMenendez_SP1_LoqueVesEsloqueObtienes
                 }
             }
         }
-
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
